@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>AuraPerfumes</title>
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">AuraPerfumes</a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="perfumes.html">Perfumes</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Masculinos</a></li>
+              <li><a class="dropdown-item" href="#">Femininos</a></li>
+              <li><a class="dropdown-item" href="#">Promoções</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="compras.html">Compras e Vendas</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input id="searchInput" class="form-control me-2" type="search" placeholder="Buscar perfume">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HEADER ================= -->
+  <header class="topo text-center">
+    <h1>Sinta o Luxo. Viva a Fragrância</h1>
+    <p style="color:#fff; max-width:600px; margin:auto;">
+      Transforme momentos comuns em memórias inesquecíveis
+    </p>
+  </header>
+
+  <!-- ================= PRODUTOS ================= -->
+  <main class="cards-container">
+
+    <!-- CARD -->
+    <div class="card" data-name="1 million rabanne masculino">
+      <img src="img/pf1.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">1 Million – Rabanne</h5>
+        <p class="card-text">Fragrância intensa e sofisticada.</p>
+        <p class="preco">R$ 799,00</p>
+        <a href="compras.html" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="bleu de chanel masculino">
+      <img src="img/pf2.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Bleu de Chanel</h5>
+        <p class="card-text">Amadeirado aromático marcante.</p>
+        <p class="preco">R$ 650,00</p>
+        <a href="compras.html" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="desejo essencial feminino">
+      <img src="img/pf3.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Desejo Essencial</h5>
+        <p class="card-text">Suave, elegante e envolvente.</p>
+        <p class="preco">R$ 480,00</p>
+        <a href="compras.html" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="coco mademoiselle feminino">
+      <img src="img/ppf4.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Coco Mademoiselle</h5>
+        <p class="card-text">Feminilidade e sofisticação.</p>
+        <p class="preco">R$ 420,00</p>
+        <a href="compras.html" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+
+  </main>
+
+   <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h4>Aura Perfumes</h4>
+      <p style="color: aliceblue;">que marca presença.</p>
+    </div>
+      
+    <div class="footer-copy">
+      <p>Trazendo a essencia para os melhores momentos.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
