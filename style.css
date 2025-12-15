@@ -14,12 +14,14 @@ body {
   
 }
 
-h1, h2, h5, h6,h4 {
+h1, h2, h6,h4 {
   font-family: 'Playfair Display', serif;
   color: #fff;
   text-align: center;
 }
-
+h5{
+  font-family: 'Playfair Display', serif;
+}
 .navbar {
   padding: 14px 30px;
   background: linear-gradient(90deg, #000, #1c1c1c);
