@@ -21,6 +21,7 @@ h1, h2, h6,h4 {
 }
 h5{
   font-family: 'Playfair Display', serif;
+  color: #000;
 }
 .navbar {
   padding: 14px 30px;
