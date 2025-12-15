@@ -164,7 +164,10 @@
 
 </div>
 
-  <button class="btn btn-dark btn-finalizar">Finalizar Pagamento</button>
+  <button class="btn btn-dark btn-finalizar" onclick="finalizarCompra()">
+  Finalizar Pagamento
+</button>
+
 </main>
 <footer class="footer">
   <div class="footer-container">
@@ -178,6 +181,13 @@
       <p>Trazendo a essencia para os melhores momentos.</p>
     </div>
   </div>
+  <script>
+function finalizarCompra() {
+  alert("✅ Compra finalizada com sucesso!\nObrigado por comprar na Aura Perfumes.");
+  localStorage.removeItem("carrinho");
+  window.location.href = "index.html";
+}
+</script>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
